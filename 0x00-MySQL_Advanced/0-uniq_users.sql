@@ -1,7 +1,7 @@
--- a script that creates the table user in your MySQL server.
+-- a script that creates the table user
 DROP TABLE IF EXISTS users
 CREATE TABLE users (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  email VARCHAR(255) NOT NULL UNIQUE,
-  name VARCHAR(255)
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    name VARCHAR(255)
 );
