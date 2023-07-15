@@ -1,3 +1,4 @@
+-- cat bookinfo.sql | mysql -uroot -p bookinfo
 -- Server: localhost   Database: bookinfo 
 -- phpMyAdmin SQL Dump
 -- version 3.2.0.1
