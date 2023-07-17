@@ -648,6 +648,7 @@ Write a Python function that returns the list of school having a specific topic:
 - Prototype: ``def schools_by_topic(mongo_collection, topic)``:
 - ``mongo_collection`` will be the ``pymongo`` collection object
 - ``topic`` (string) will be topic searched
+```
 khalfan@aisha:~/0x01$ cat 11-main.py
 #!/usr/bin/env python3
 """ 11-main """
@@ -680,6 +681,7 @@ khalfan@aisha:~/0x01$ ./11-main.py
 [5a90731fd4321e1e5a3f53e5] UCLA ['C', 'Python']
 khalfan@aisha:~/0x01$ 
 ```
+
 Repo:
 
 - GitHub repository: alx-backend-storage
