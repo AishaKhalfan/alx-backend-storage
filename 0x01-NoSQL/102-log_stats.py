@@ -25,6 +25,3 @@ if __name__ == "__main__":
     )
 
     print(f'{status_check} status check')
-
-
-def print_top_ips(server_collection):
