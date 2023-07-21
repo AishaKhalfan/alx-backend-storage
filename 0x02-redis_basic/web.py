@@ -10,6 +10,7 @@ from typing import Callable
 
 redis_connection = redis.Redis()
 
+
 def data_cache(method: Callable) -> Callable:
     """it caches the output of the fetched data"""
 
@@ -31,4 +32,3 @@ def data_cache(method: Callable) -> Callable:
 def get_page(url: str) -> str:
     """returns content of a url after caching"""
     return requests.get(url).text
-    
