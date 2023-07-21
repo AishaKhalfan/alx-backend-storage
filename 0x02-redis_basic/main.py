@@ -37,6 +37,7 @@ cache = Cache()
 
 #-----task4-----------
 #from cache import Cache, call_history, replay
+
 cache.store("foo")
 cache.store("bar")
 cache.store(42)
