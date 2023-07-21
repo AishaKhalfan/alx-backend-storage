@@ -15,7 +15,7 @@ def data_cache(method: Callable) -> Callable:
     """it caches the output of the fetched data"""
 
     @wraps(method)
-    def wrapper(ulr) -> str:
+    def wrapper(url) -> str:
         """wrapper function"""
         redis_connection.incr(f"count:{url}")
         output = redis_connection.get(f"output:{url}")
